@@ -1,5 +1,5 @@
-//localStorage.setItem('userid','fahim');
-//localStorage.setItem('password','fahim');
+localStorage.setItem('userid','ardufarmbotiiest');
+localStorage.setItem('password','ardufarmbotiiest');
 function myjok(){
 	let mk=document.getElementById('myform').value;
 	let mj=document.getElementById('pol').value;
