@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>    
+<body>
+<header id="pop">Ardufarmbot Mission Control</header>
+<div id="div1"><p id="lol"><h2 id="cs">CURRENT STATUS</h2></p>
+<p id="temparature">
+	<button onclick="gettemparature()" id="temp">Temperature</button>
+</p>
+<p id="tempval"></p>
+<p id="hum">
+    <button onclick="gethumidity()" id="humi">Humidity</button>
+</p>
+<p id="humval"></p>
+   </div>
+<div id="pump">
+   <p id="motor">
+       <button onclick="changecolour()" id="onoff">Motor Status</button></p>
+   <p id="on">ON</p>
+   <p id="off">OFF</p>
+</div>
+<div id="light">
+        <p id="lightstat">
+            <button onclick="changecolour2()" id="onoff2">Lamp Status</button></p>
+        <p id="on1">ON</p>
+        <p id="off1">OFF</p>
+     </div>
+   <script src="script2.js"></script>
+
+</body>
+</html>

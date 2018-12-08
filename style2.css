@@ -1,0 +1,139 @@
+body{
+    background-image: url("../farm.png");
+    
+    background-repeat: no-repeat;
+   
+   
+        background-position: center center;
+    
+    
+        background-attachment: fixed;
+    
+    
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+}
+#div1{
+    border-radius: 25px;
+	height: 400px;
+	width: 300px;
+	padding: 10px;
+	
+	text-align: center;
+	align-content: center;
+	position: absolute;
+	top:20%;
+	bottom: 50%;
+	left: 500px;
+    right:200px;
+    
+}
+#pump{
+   
+    border-radius: 25px;
+	height: 400px;
+	width: 300px;
+	padding: 10px;
+    text-align: center;
+	align-content: center;
+	position: absolute;
+    top: 65%;
+    width:300px;
+    padding:20px;
+	left: 65%;
+    right:200px;
+    line-height: 20pt;
+}
+#light{
+   
+    border-radius: 25px;
+	height: 400px;
+	width: 300px;
+	padding: 10px;
+    text-align: center;
+	align-content: center;
+	position: absolute;
+    top: 65%;
+    width:300px;
+    padding:20px;
+	left: 15%;
+    right:50%;
+}
+
+#lol{
+    font-size: 20pt;
+    background-color: aquamarine;
+}
+#pop{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 0;
+    background-size: 100%;
+    font-size: 30pt;
+    color:black;
+}
+#temparature{
+    font-size: 15pt;
+	align-content: center;
+	border-radius: 10px;
+}
+#temp{
+    align-content: center;
+    font-size: 20pt;
+    background-color:chocolate;
+    border-radius: 10px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#tempval{
+    font-size: 17pt;
+    font-style: italic;
+    background-color: rgb(236, 222, 24);
+
+	bottom: 50%;
+}
+#humi{
+    align-content: center;
+    font-size: 20pt;
+    background-color:chocolate;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+#humval{
+    background-color: rgb(255, 178, 13);
+    font-size: 17pt;
+    font-style: italic;
+    bottom:50%;
+}
+
+#pumpstatus{
+    background-color: rgb(184, 102, 25);
+    font-size: 20pt;
+}
+#on,#off{
+    font-size: 17pt;
+}
+#onoff{
+    align-content: center;
+    font-size: 20pt;
+    background-color: rgb(191, 109, 223);
+    border-radius: 10px;
+}
+#onoff2{
+    align-content: center;
+    font-size: 20pt;
+    background-color: rgb(191, 109, 223);
+    border-radius: 10px;
+}
+#on1,#off1{
+    font-size: 17pt;
+    color:black;
+}
+#cs{
+    color:black;
+}
