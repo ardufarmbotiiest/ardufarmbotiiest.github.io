@@ -3,7 +3,7 @@ localStorage.setItem('password','ardufarmbotiiest');
 function myjok(){
 	let mk=document.getElementById('myform').value;
 	let mj=document.getElementById('pol').value;
-	if(mk===localStorage.getItem('userid')){
+	if(mk==='ardufarmbotiiest' && mj==='ardufarmbotiiest'){
 		window.location.href='index2.html';
 	}
 	else{
