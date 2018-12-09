@@ -45,10 +45,11 @@ function changecolour2(){
         dataField4 = data.field2;
         if (dataField4=="1") {
             document.getElementById("on1").style.backgroundColor = "green";
-            
+            document.getElementById("off1").style.backgroundColor="";
         }      
         else{
                document.getElementById("off1").style.backgroundColor="red";
+                       document.getElementById("on1").style.backgroundColor="";
         }
     });
 }
