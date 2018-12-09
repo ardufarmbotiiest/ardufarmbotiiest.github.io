@@ -29,7 +29,7 @@ function gethumidity()
 function changecolour(){
     $.getJSON('https://api.thingspeak.com/channels/'+channelID+'/field/2/last.json?apikey='+readKey+'&callback=?', function(data) {          
         dataField3 = data.field2;
-        if (dataField3=="0") {
+        if (dataField3=="1") {
             document.getElementById("on").style.backgroundColor = "green";
             document.getElementById("off").style.backgroundColor="";
         }      
