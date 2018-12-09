@@ -41,15 +41,16 @@ function changecolour(){
 
 }
 function changecolour2(){
-    $.getJSON('https://api.thingspeak.com/channels/'+channelID+'/field/2/last.json?apikey='+readKey+'&callback=?', function(data) {          
-        dataField4 = data.field2;
+    $.getJSON('https://api.thingspeak.com/channels/'+channelID+'/field/4/last.json?apikey='+readKey+'&callback=?', function(data) {          
+        dataField4 = data.field4;
         if (dataField4=="1") {
             document.getElementById("on1").style.backgroundColor = "green";
             document.getElementById("off1").style.backgroundColor="";
+            
         }      
         else{
                document.getElementById("off1").style.backgroundColor="red";
-                       document.getElementById("on1").style.backgroundColor="";
+               document.getElementById("on1").style.backgroundColor="";
         }
     });
 }
